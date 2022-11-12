@@ -1,0 +1,502 @@
+@import 'fonts.css';
+body{
+    font-family: 'Lato', serif;
+    background-color: #FFFFFF;
+}
+.container-big{
+    width: 1220px;
+    margin-right:auto;
+    margin-left:auto;
+}
+header{
+    padding: 56px 145px;
+    background: #EEDDCC;
+}
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: 'Lato';
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #233348;
+    display: inline-flex;
+    align-items: center;
+}
+.logo::before{
+    font-family: 'Lato';
+    content: "MR";
+    font-size: 20px;
+    line-height: 1.3;
+    width: 58px;
+    height: 52px;
+    border-radius: 50%;
+    background-color:#34251F;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation li{
+    margin-right: 40px; 
+}
+.navigation li:last-child{
+    margin-right: 0px; 
+}
+.navigation a{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #34251F;
+    opacity: 100%;
+}
+.section1{
+    background-image: url("image/waves.png");
+    /* background-repeat: no-repeat; */
+    background-position: bottom;
+    background-size: auto;
+}
+.section1{
+    width: 100%;
+    margin-right:auto;
+    margin-left:auto;
+    background: #EEDDCC;
+} 
+.section1 > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 108px;
+}
+.hero-content h1{
+    font-family: 'Frank Ruhl Libre';
+    font-size: 68px;
+    line-height: 1.17;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+    margin-top: 120px;
+}
+.hero-content h2{
+    font-family: 'Lato';
+    font-size: 35px;
+    line-height: 1.8;
+    font-weight: 400;
+    color:#34251F;
+    margin-bottom: 38px;
+}
+.hero_image img{
+    height: 600px;
+    margin-bottom: 127px;
+}
+.button_filled a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color:#34251F;
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #34251F;
+    padding: 24px;
+    text-align: center;
+    min-width: 230px;
+    margin-bottom: 346px;
+}
+.container{
+    width: 1120px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.section2 img{
+    height: 92px;
+    width: 75px;
+    align-items: center;
+    margin: 46px 170px 20px;
+}
+.section2{
+    width: 100%;
+    margin: 0 auto;
+} 
+/* .section2{
+    background-image: url("image/drops.svg"), url("image/points.svg");
+    background-repeat: no-repeat;
+    background-position: left 28px top 0px, right 201px top 534px;
+    background-size: 800px 937px, 115px 131px;
+} */
+.section2 h2{
+    font-family: 'Frank Ruhl Libre';
+    color: #34251F;;
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.55;
+    margin-top: 97px;
+}
+.section2 .paragraphs{
+    width: 1315px;
+    margin-left: -35px;
+}
+.section2 .paragraph{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18.5px;
+    color: #34251F;
+    line-height: 1.8;
+}
+.section2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:34px; 
+}
+.section2 li{
+    margin-top: 41px;
+    width: 558px;
+    height: 469px;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #f2eae3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 54px 37px 0px;
+    align-items: start;
+}
+.cards{
+    padding-bottom: 55px; 
+    margin: 0 auto;
+}
+.cards h3{
+    width: 360px;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+    color: #34251F;
+    margin: 0px auto;
+}
+.cards p{
+    width: 410px;
+    font-family: 'Lato';
+    text-align: center;
+    color: #34251F;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 19.5px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+.cards h4{
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: #34251F;
+}
+.cards h5{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: center;
+    color: #34251F;
+    opacity: 0.5;  
+}
+
+/* .section3{
+    background-image: url("image/points.svg");
+    background-repeat: no-repeat;
+    background-position: right -3.3% bottom;
+    background-size: auto;
+}  */
+.section3{
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: #EEDDCC;
+    margin-top: 120px;
+} 
+.section3 img{
+    width: 530px;
+    height: 662px;
+    margin: 100px 0px;
+}
+.section3 > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-section3 h2{
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 1.15;
+    color: #34251F;
+    margin-bottom: 30px;
+    margin-top: 160px;
+}
+.content-section3 p{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: justify;
+    color: #34251F;
+    width: 446px;
+    margin-bottom: 370px;
+}
+.block{
+    position: absolute;
+    width: 800px;
+    height: 208px;
+    left: 740px;
+    top: 2420px;
+    background: #FFFFFF;
+}
+.block ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.block li{
+    padding: 38px 48px 47px;
+    width: 142px;
+    height: 123px;
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.95;
+    color: #34251F;
+}
+.block li:last-child{
+    margin-right: 45px;
+}
+
+
+/* .section4{
+    background-image: url("image/points.svg"), url("image/points.svg"), url("image/drop_right.svg");
+    background-repeat: no-repeat;
+    background-position: left 24.8% top 12.8%, right 5.7% bottom -4.9%, right 16.5% top 17.3%;
+    background-size: auto, auto, auto;
+} */
+.section4 h2{
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 1.3;
+    text-align: center;
+    color: #34251F;
+    margin-top: 113px;
+    margin-bottom: 11px;
+}
+.section4_paragraph{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.8;
+    text-align: center;
+    color: #34251F;
+    margin-bottom: 42px;
+}
+.section4 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 34px; 
+}
+.section4 li{
+    width: 350px;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    margin-bottom: 200px;
+}
+.section4 li > img{
+    width: 100%;
+}
+.cards_2 h3{
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1.2px;
+    text-align: center;
+    width: 316px;
+    border: 20px solid white;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    bottom: 89px;
+    left: 15px;
+    background-color: #FFFFFF;
+}
+.section5{
+    background-color: #4F403A;
+}
+.section5 > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.content-section5 h2{
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 67px;
+    color: #FFFFFF;
+    margin-top: 170px;
+    margin-bottom: 24px;
+}
+.content-section5 p{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+    width: 354px;
+}
+.content-section5 .button_clear{
+    display: flex;
+    justify-content: left;
+}
+.content-section5 .button_clear a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFFFFF;;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 23px 60px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 200px;
+    margin-bottom: 160px;
+}
+.section5 ul{
+    display: flex;
+    gap: 25px; 
+}
+.section5 li{
+    width: 363px;
+    height: 538px;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.cards_3{
+    padding: 24px 33px 35px;
+}
+.section5 li > img{
+    width: 100%;
+}
+.section5 h3{
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: #000000;
+    line-height: 1.55;
+    margin-bottom: 12px;
+}
+.section6{
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+} 
+.image-section6{
+    margin-top: -100px;
+}
+.section6 img{
+    width: 496px;
+    height: 542px;
+}
+.section6 > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+.content-section6{
+    margin-top: 210px;
+}
+.content-section6 h2{
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.3;
+    color: #34251F;
+    margin-bottom: 20px;
+}
+.content-section6 p{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.8;
+    color: #34251F;
+}
+.icons{
+    margin-left: 22px;
+}
+.icons img{
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    display: inline-block;
+	width: 90px;
+	height: 90px;
+	cursor: pointer;
+	border-radius: 2px;
+    margin: 43px 46px 58px -15px;  
+}
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #413531;
+}
+.footer_navigation{
+    margin-top: 111px;
+}
+.footer_navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_navigation li{
+    margin-right: 40px; 
+}
+.footer_navigation li:last-child{
+    margin-right: 0px; 
+}
+.footer_navigation a{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #FFFFFF;;
+    opacity: 100%;
+}
+.footer_paragraph{
+    color: #FFFFFF;    
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.0;
+    text-align: center;
+    opacity: 0.67;
+    margin-top: 38px;
+    margin-bottom: 58px;
+}
+
+
